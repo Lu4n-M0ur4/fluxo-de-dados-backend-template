@@ -10,3 +10,17 @@ export type TAccount = {
     balance: number,
     type: ACCOUNT_TYPE
 }
+
+
+export enum MODELO_CARRO {
+    SEDAN = "sedan",
+    SUV = "suv",
+    RET = "ret"
+  };
+
+ export type TCarro = {
+    id: string;
+    carName: string;
+    marca: string;
+    modelo: MODELO_CARRO;
+  }
